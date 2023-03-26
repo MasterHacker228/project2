@@ -5,7 +5,7 @@ import time
 import cv2 as cv
 
 time_for_cooldown = 1
-bot = telebot.TeleBot('6231239194:AAGR1Fl12TaOwcTynIA4MhAte_ZZcR3PJoM')
+bot = telebot.TeleBot('token')
 url = 'http://192.168.68.118'
 
 with open('admins.txt') as file1:

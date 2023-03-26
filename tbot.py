@@ -6,7 +6,7 @@ import cv2 as cv
 
 time_for_cooldown = 1
 bot = telebot.TeleBot('token')
-url = 'http://192.168.68.118'
+url = 'ip'
 
 with open('admins.txt') as file1:
 	admins = list(map(int, file1.readlines()))
